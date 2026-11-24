@@ -1,0 +1,58 @@
+{
+ "Version": 3,
+ "FileReferences": {
+  "Moc": "Yanmodel.moc3",
+  "Textures": [
+   "Yanmodel.4096/texture_00.png"
+  ],
+  "Physics": "Yanmodel.physics3.json",
+  "DisplayInfo": "Yanmodel.cdi3.json",
+  "Expressions": [
+   {
+    "Name": "Blush",
+    "File": "expressions/Blush.exp3.json"
+   },
+   {
+    "Name": "Blood",
+    "File": "expressions/Blood.exp3.json"
+   },
+   {
+    "Name": "Eye_Dark",
+    "File": "expressions/Eye_Dark.exp3.json"
+   },
+   {
+    "Name": "Eye_Heart",
+    "File": "expressions/Eye_Heart.exp3.json"
+   },
+   {
+    "Name": "Face_Dark",
+    "File": "expressions/Face_Dark.exp3.json"
+   }
+  ],
+  "Motions": {
+   "Event": [
+    {
+     "File": "motions/HandsUp.motion3.json"
+    },
+    {
+     "File": "motions/HandKnife.motion3.json"
+    }
+   ]
+  }
+ },
+ "Groups": [
+  {
+   "Target": "Parameter",
+   "Name": "LipSync",
+   "Ids": []
+  },
+  {
+   "Target": "Parameter",
+   "Name": "EyeBlink",
+   "Ids": [
+    "ParamEyeLOpen",
+    "ParamEyeROpen"
+   ]
+  }
+ ]
+}
